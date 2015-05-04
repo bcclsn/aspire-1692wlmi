@@ -18,6 +18,7 @@
 .pki/
 .ssh/
 .thumbnails/
+.tor-browser_it/
 .xinitrc
 .zcompdump
 .zcompdump-dreamspark-5.0.7
