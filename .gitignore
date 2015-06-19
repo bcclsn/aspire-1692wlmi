@@ -11,6 +11,8 @@
 .gnupg/
 .histfile
 .icons/
+.java/
+.jdownloader/         
 .kde4/
 .kodi/
 .local/
