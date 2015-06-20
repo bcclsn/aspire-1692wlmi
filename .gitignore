@@ -18,6 +18,7 @@
 .local/
 .oh-my-zsh/
 .pki/
+.pyload/
 .ssh/
 .thumbnails/
 .tor-browser_it/
