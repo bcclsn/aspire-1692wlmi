@@ -4,6 +4,7 @@
 .Xauthority
 .cache/
 .config/
+.dbus/
 .directory
 .fontconfig/
 .gitconfig
