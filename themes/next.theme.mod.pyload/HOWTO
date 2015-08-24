@@ -1,0 +1,18 @@
+How to install:
+1. go to Settings -> Webinterface and change the template to "Next", (or edit the pyload.conf manually)
+2. stop pyLoad if it's running.
+3. navigate to "\pyload\dist\module\web", open "webinterface.py" and find:
+(alternativ path: "\pyLoad\pyload\module\web")
+
+"default": FileSystemLoader(join(PROJECT_DIR, "templates", "default")),
+
+4. paste the following under it:
+"Next": FileSystemLoader(join(PROJECT_DIR, "templates", "Next" )),
+
+5. delete "webinterface.pyc" (it's in the same folder)
+6. Backup: \pyload\dist\module\web\media\js
+(alternativ path: "\pyLoad\pyload\module\web\media\js")
+7. copy content from "COPYME" to "\pyload\dist\module\web\"
+(alternativ path: "\pyLoad\pyload\module\web\")
+8. restart pyLoad (and maybe delete your browser cache to make the changes take effect)
+9. have fun with your new Next theme
