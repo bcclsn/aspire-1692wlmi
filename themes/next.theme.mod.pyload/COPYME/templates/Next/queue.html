@@ -54,7 +54,7 @@ document.addEvent("domready", function(){
 
     <div id="progress" class="progress" style="float: right; width: 30%; margin-top: -5px; color:#fff; font-weight: 700; font-size:12px;">
         <div class="progress-bar" role="progressbar" style="width: {{ progress }}%; height: 100%; position: relative; z-index: 1; background-color:#7AA1C2;">
-            <label style="color:#333;">{{ package.linksdone }} / {{ package.linkstotal }}</label>
+            <label style="left: 12px; position: absolute; z-index: 2; color:#333; padding-top:1px;">{{ package.linksdone }} / {{ package.linkstotal }}</label>
         </div>
         <label style="right: 32px; position: absolute; z-index: 2; color:#333;padding-top:3px;">
             {{ package.sizedone|formatsize }} / {{ package.sizetotal|formatsize }}</label>
