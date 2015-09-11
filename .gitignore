@@ -6,6 +6,7 @@
 .cache/
 .config/
 .dbus/
+Desktop/
 .directory
 .esd_auth
 .fontconfig/
