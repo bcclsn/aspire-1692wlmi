@@ -1,4 +1,5 @@
 .ACEStream/
+.ICEauthority
 .TelegramDesktop/
 .WilmaaTV.php
 .Xauthority
@@ -6,6 +7,7 @@
 .config/
 .dbus/
 .directory
+.esd_auth
 .fontconfig/
 .gitconfig
 .gnome/
@@ -17,10 +19,12 @@
 .kde4/
 .kodi/
 .local/
+.mozilla/
 .oh-my-zsh/
 .pki/
 .pyload/
 .recently-used
+.smb/
 .ssh/
 .thumbnails/
 .tor-browser_it/
@@ -35,3 +39,5 @@
 documenti/
 downloads/
 screenshot/
+
+
