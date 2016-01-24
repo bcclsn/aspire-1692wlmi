@@ -28,6 +28,7 @@ Desktop/
 .smb/
 .ssh/
 .thumbnails/
+.tmux.conf
 .tor-browser_it/
 .xinitrc
 .zcompdump
