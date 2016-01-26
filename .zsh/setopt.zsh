@@ -1,5 +1,4 @@
-setopt VI
-setopt NO_BEEP
+setopt beep
 setopt correctall
 setopt always_last_prompt
 setopt always_to_end
