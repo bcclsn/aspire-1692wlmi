@@ -5,8 +5,8 @@
 # Look in ~/.oh-my-zsh/themes/
 # Optionally, if you set this to "random", it'll load a random theme each
 # time that oh-my-zsh is loaded.
-#   ZSH_THEME="clean.mod.bcclsn"
-    ZSH_THEME="robbyrussell.mod.bcclsn"
+   ZSH_THEME="clean.mod.bcclsn"
+#  ZSH_THEME="robbyrussell.mod.bcclsn"
 
 # Uncomment the following line to use case-sensitive completion.
 # CASE_SENSITIVE="true"
@@ -83,15 +83,23 @@ source $HOME/.zsh/setopt.zsh
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
 #echo "inizio blocco info"
-echo ""                                                          
-echo "$fg[cyan] Last -Syu: $reset_color $(grep "pacman -Syu" /var/log/pacman.log | tail -n1 | cut -c 2- | cut -c-16)"            
+#echo ""                                                          
+#echo "$fg[cyan] Last -Syu: $reset_color $(grep "pacman -Syu" /var/log/pacman.log | tail -n1 | cut -c 2- | cut -c-16)"            
 #echo "$fg[cyan] Kernel:    $reset_color $(uname -r)"  
-echo "$fg[cyan] HDD:      $reset_color $(df -h | grep "/dev/sda1" | cut -c 23- | cut -c-4)/$(df -h | grep "/dev/sda1" | cut -c 18- | cut -c-3)"              
-echo "$fg[cyan] RAM:       $reset_color $(free -m | grep "Mem:" | cut -c 28- | cut -c -4)/$(free -m | grep "Mem:" | cut -c 16- | cut -c -4)"
-echo "$fg[cyan] Battery:   $reset_color $(cat /sys/class/power_supply/BAT1/capacity)%"                      
-echo "$fg[cyan] CPU Temp:  $reset_color $(cut -c 1,2 /sys/class/thermal/thermal_zone0/temp)°C"        
-echo ""
-echo "$fg[cyan] Welcome to ArchLinux: Free as in Freedom, not as in Beer$reset_color"                                   
-echo ""
-echo ""
+#echo "$fg[cyan] HDD:      $reset_color $(df -h | grep "/dev/sda1" | cut -c 23- | cut -c-4)/$(df -h | grep "/dev/sda1" | cut -c 18- | cut -c-3)"              
+#echo "$fg[cyan] RAM:       $reset_color $(free -m | grep "Mem:" | cut -c 28- | cut -c -4)/$(free -m | grep "Mem:" | cut -c 16- | cut -c -4)"
+#echo "$fg[cyan] Battery:   $reset_color $(cat /sys/class/power_supply/BAT1/capacity)%"                      
+#echo "$fg[cyan] CPU Temp:  $reset_color $(cut -c 1,2 /sys/class/thermal/thermal_zone0/temp)°C"        
+#echo ""
+#echo "$fg[cyan] Welcome to ArchLinux: Free as in Freedom, not as in Beer$reset_color"                                   
+#echo ""
+#echo ""
 #echo "fine blocco info"
+
+
+#echo "inizio blocco info - utente root"
+echo ""
+echo "$fg[cyan] Welcome to Archlinux... GOD Mode$reset_color"                                   
+echo ""
+#echo "fine blocco info - utente root"
+
