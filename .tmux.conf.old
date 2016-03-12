@@ -1,0 +1,53 @@
+# $Id: screen-keys.conf,v 1.7 2010-07-31 11:39:13 nicm Exp $
+#
+# bcclsn
+
+# Set shell
+set -g default-command zsh
+
+# Status bar design
+set -g default-terminal "screen-256color"
+set -g status-justify left
+set -g status-position bottom
+set -g status-bg black
+set -g status-fg cyan
+
+set-window-option -g status-left " bcclsn #S "
+set-window-option -g status-left-fg blue
+set-window-option -g status-left-bg black
+
+set-window-option -g status-right "#(date +'%a %d-%b-%y') ~ #(hostname) ~ #(date +'%H:%M') "
+set-window-option -g status-right-fg blue
+set-window-option -g status-right-bg black
+
+# Status current pane design
+set-window-option -g window-status-format " #W(#I) "
+set-window-option -g window-status-current-format " #W(#I) "
+set-window-option -g window-status-current-fg black
+set-window-option -g window-status-current-bg cyan
+
+# Panes
+set -g pane-border-fg black
+
+# Don't rename windows automatically
+set-option -g allow-rename on
+
+# Default global windows options
+setw -g xterm-keys on
+
+# Set the prefix key
+unbind C-b
+set -g prefix C-a
+bind C-a send-prefix
+
+# Splitting
+bind v split-window -h
+bind h split-window -v
+
+# Enable mouse mode (tmux 1.8 and above)
+#set -g mouse-select-window on
+#set -g mouse-select-pane on
+#set -g mouse-resize-pane on
+
+# Enable mouse mode (tmux 2.1)
+set -g mouse on
